@@ -2,36 +2,43 @@
   <div class="parallax"><%= image_tag("example.gif", :alt => "matrix") %></div>
 </div>
 
-
-
   <div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-item caroseltwo white-text" href="#one!">
+    <div class="carousel-item carouselcolor white-text" href="#one!">
       <div class="row">
-        <div>
-          <a href="https://github.com/F1nalFortune/calculator" target="_blank"><%= image_tag('ruby_calc.png', :id =>"calc", :class => "") %></a>
+        <div class="col m8 offset m2">
+          <a target="_blank" href="https://github.com/F1nalFortune/calculator"><%= image_tag('ruby_calc.png', :class => "calc") %></a>
         </div>
-        <div>
-          <p>a</p>
-          <p>a</p>
+        <div class="col m2 githublink">
+          <p id="g" class="orbitron neon">g</p>
+          <p class="vertword orbitron neon">i</p>
+          <p class="vertword orbitron neon">t</p>
+          <p class="vertword orbitron neon">H</p>
+          <p class="vertword orbitron neon">u</p>
+          <p class="vertword orbitron neon">b</p>
+          <a href="https://github.com/F1nalFortune/calculator" target="_blank"><span class="fa fa-github fa-2x neon"></span></a>
         </div>
       </div>
+
     </div>
-    <div class="carousel-item carosel white-text" href="#two!">
+    <div class="carousel-item carouselcolorone white-text" href="#two!">
       <h2>Second Panel</h2>
       <p class="white-text">This is your second panel</p>
     </div>
-    <div class="carousel-item caroseltwo white-text" href="#three!">
+    <div class="carousel-item green white-text" href="#three!">
       <h2>Third Panel</h2>
       <p class="white-text">This is your third panel</p>
     </div>
-    <div class="carousel-item carosel white-text" href="#four!">
+    <div class="carousel-item blue white-text" href="#four!">
       <h2>Fourth Panel</h2>
       <p class="white-text">This is your fourth panel</p>
     </div>
   </div>
         
 
-
 <div class="parallax-container">
   <div class="parallax"><%= image_tag("example.gif", :alt => "matrix") %></div>
 </div>
+
+
+<i class="fa fa-camera-retro fa-2x"></i> fa-2x
+<i class="fa fa-github fa-2x" aria-hidden="true"></i>

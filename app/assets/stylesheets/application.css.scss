@@ -17,6 +17,9 @@
 $primary-color: #404040 !default;
 $secondary-color: #99ffff !default; 
 @import 'materialize';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 
 
  header, main, footer, h1  {
